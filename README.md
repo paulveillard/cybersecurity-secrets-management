@@ -22,8 +22,9 @@ Secrets are environment dependent configurations that need to be kept secret and
 - Locks (encryption keys), 
 - Privileged credentials, and other secrets.
 
+
 ### Why Store Secrets?
- Storing secrets the secure way is a challenge with limiting access and a true secure storage.
+- 
  
 ### How do you store Secrets
 Passwords, API keys, secure Tokens, and confidential data fall into the category of secrets. That’s data which shouldn’t lie around. It mustn’t be available in plaintext in easy to guess locations. In fact, it must not be stored in plaintext in any location.
@@ -39,11 +40,15 @@ The care taken to protect our secrets applies both to how we get and store them,
 
 ## What Are Secrets Management?
 
-Secrets Management refers to the way in which we protect configuration settings and other sensitive data which, if made public, would allow unauthorized access to resources. Examples of secrets are usernames, passwords, api keys, SAS tokens etc. Secrets Management centrally Manage Secrets to Reduce Secrets Sprawl.
+- Secrets Management refers to the way in which we protect configuration settings and other sensitive data which, if made public, would allow unauthorized access to resources. Examples of secrets are usernames, passwords, api keys, SAS tokens etc. Secrets Management centrally Manage Secrets to Reduce Secrets Sprawl.
+
+## Why Is Secrets Management Important?
+
+- Users need to use authentication methods to access sensitive information or company resources. Whenever these secrets or credentials are transmitted across the company, there is a risk of data leakage or lost passwords. Because of this risk, there is a critical need for organizations to protect secrets. 
 
 
 ## Secret Management Tools
-Secrets management tools replace fragmented and manual secrets management and provide central visibility, oversight, and management of a company’s credentials, keys, and other secrets across departments. Most commonly, these tools are used by software developers, security professionals, and IT operations teams (DevOps or DevSecOps).
+- Secrets management tools replace fragmented and manual secrets management and provide central visibility, oversight, and management of a company’s credentials, keys, and other secrets across departments. Most commonly, these tools are used by software developers, security professionals, and IT operations teams (DevOps or DevSecOps).
 
 
 > [Secrets Management Tools](https://www.g2.com/categories/secrets-management-tools)  are similar to but more robust than encryption key management software, which focuses on the storage, use, and rotation of encryption keys. Similarly, there is an overlap between secrets management and privileged access management (PAM) software. While security-focused PAM solutions offer secrets management, they also offer more robust security functions for enforcing least privilege policies with access controls, monitoring and recording privileged sessions, and alerting suspicious activity. Some secrets management solutions are built into platforms or cloud providers directly. In contrast, other solutions augment that functionality by offering a universal and centralized approach to secrets management, regardless of platform, using integrations.
