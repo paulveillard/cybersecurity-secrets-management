@@ -6,7 +6,7 @@ An ongoing & curated collection of awesome software best practices and technique
 
 ## What Are Secrets?
 
-Secrets are digital authentication credentials such as:
+Secrets are environment dependent configurations that need to be kept secret and should be read only by subjects with a need-to-know. Secrets are digital authentication credentials such as:
 - Passwords, 
 - SSH keys, 
 - API keys, 
@@ -16,6 +16,12 @@ Secrets are digital authentication credentials such as:
 - Tokens, 
 - Locks (encryption keys), 
 - Privileged credentials, and other secrets.
+
+### Why Store Secrets?
+ Storing secrets the secure way is a challenge with limiting access and a true secure storage.
+ 
+### How do you store secrets
+Passwords, API keys, secure Tokens, and confidential data fall into the category of secrets. That’s data which shouldn’t lie around. It mustn’t be available in plaintext in easy to guess locations. In fact, it must not be stored in plaintext in any location.
 
 ## What Are Secrets Management?
 
