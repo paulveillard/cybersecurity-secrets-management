@@ -6,7 +6,7 @@ An ongoing & curated collection of awesome software best practices and technique
 
 ## What Are Secrets?
 
-Secrets are digital authentication credentials such as passwords, SSH keys, API keys, database passwords, certificates like TLS/SSL certificates or private certificates, tokens, encryption keys, privileged credentials, and other secrets.
+Secrets are digital authentication credentials such as passwords, SSH keys, API keys, AWS IAM/STS Credentials, database passwords (SQL/NoSQL), X.509 certificates like TLS/SSL certificates or private certificates, tokens, encryption keys, privileged credentials, and other secrets.
 
 ## What Are Secrets Management?
 
