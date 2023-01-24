@@ -6,7 +6,8 @@ An ongoing & curated collection of awesome software best practices and technique
 ## Table of Contents
 - [What Are Secrets](#)
   - [Why store secrets?](#)
-  - [How fo you store secrets?](#)
+  - [How do you store secrets?](#)
+  - [Where do you store secrets?]
 
 ## What Are Secrets?
 
@@ -24,10 +25,10 @@ Secrets are environment dependent configurations that need to be kept secret and
 ### Why Store Secrets?
  Storing secrets the secure way is a challenge with limiting access and a true secure storage.
  
-### How do you store secrets
+### How do you store Secrets
 Passwords, API keys, secure Tokens, and confidential data fall into the category of secrets. That’s data which shouldn’t lie around. It mustn’t be available in plaintext in easy to guess locations. In fact, it must not be stored in plaintext in any location.
 
-#### Keeping Secrets Secret:
+### Where do you store Secrets?
 
 The care taken to protect our secrets applies both to how we get and store them, but also to how we use them.
 
