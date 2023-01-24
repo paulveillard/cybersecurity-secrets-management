@@ -6,15 +6,24 @@ An ongoing & curated collection of awesome software best practices and technique
 
 ## What Are Secrets?
 
-Secrets are digital authentication credentials such as passwords, SSH keys, API keys, AWS IAM/STS Credentials, database passwords (SQL/NoSQL), X.509 certificates like TLS/SSL certificates or private certificates, tokens, encryption keys, privileged credentials, and other secrets.
+Secrets are digital authentication credentials such as:
+- Passwords, 
+- SSH keys, 
+- API keys, 
+- AWS IAM/STS Credentials, 
+- Database passwords (SQL/NoSQL), 
+- X.509 certificates like TLS/SSL certificates or private certificates, 
+- Tokens, 
+- Locks (encryption keys), 
+- Privileged credentials, and other secrets.
 
 ## What Are Secrets Management?
 
-> Secrets Management Centrally Manage Secrets to Reduce Secrets Sprawl.
+Secrets Management Centrally Manage Secrets to Reduce Secrets Sprawl.
 
 
 ## Secret Management Tools
-> Secrets management tools replace fragmented and manual secrets management and provide central visibility, oversight, and management of a company’s credentials, keys, and other secrets across departments. Most commonly, these tools are used by software developers, security professionals, and IT operations teams (DevOps or DevSecOps).
+Secrets management tools replace fragmented and manual secrets management and provide central visibility, oversight, and management of a company’s credentials, keys, and other secrets across departments. Most commonly, these tools are used by software developers, security professionals, and IT operations teams (DevOps or DevSecOps).
 
 
 > Secrets management tools are similar to but more robust than encryption key management software, which focuses on the storage, use, and rotation of encryption keys. Similarly, there is an overlap between secrets management and privileged access management (PAM) software. While security-focused PAM solutions offer secrets management, they also offer more robust security functions for enforcing least privilege policies with access controls, monitoring and recording privileged sessions, and alerting suspicious activity. Some secrets management solutions are built into platforms or cloud providers directly. In contrast, other solutions augment that functionality by offering a universal and centralized approach to secrets management, regardless of platform, using integrations.
