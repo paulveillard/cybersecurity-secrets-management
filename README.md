@@ -92,4 +92,22 @@ To qualify for the Secrets Management category, a product must:
 
 Other secrets management best practices include:
 
+#### General password strategies. 
+
+> Employee passwords are often a weak point in the security of a business. Encourage passwords with high enough length and complexity. Try to change passwords regularly as well, especially for sensitive accounts. Avoid common and easily guessed passwords.
+
+#### Centralized management. 
+
+> With so many different types of secrets, having them all in one place for your IT department to manage is the best way to avoid leaks and mitigate risks.
+
+
+#### Privileged session monitoring. 
+
+> Software that helps manage a secrets vault can also integrate well with privileged access management (PAM) platforms, adding an extra layer of security and ensuring that access is restricted to only the users who need it. DevOps teams should be able to monitor privileged user activity and terminate sessions if necessary.
+
+
+##### Threat analytics. 
+
+> An effect of centralized secret management is the ability to analyze your secrets easily. Finding and reporting on risks is faster and more comprehensive this way.
+
 
