@@ -38,6 +38,7 @@ To qualify for the Secrets Management category, a product must:
 ### 1 Password
 ### Akeyless Vault Platform
 ### AWS Secrets Manager
+### Azure Key Vault
 ### BeyondTrust Cloud Vault
 ### BeyondTrust DevOps Secrets Safe
 ### Confidant
@@ -46,5 +47,9 @@ To qualify for the Secrets Management category, a product must:
 ### Delinea DevOps Secrets Vault
 ### EnvKey
 ### Google Cloud Key Management Service (KMS)
+### Hashicorp Vault
 ### Keywhiz
+### Knox
+### Onboardbase
+### SpectralOps
 
