@@ -28,5 +28,14 @@ Secrets management tools replace fragmented and manual secrets management and pr
 
 > Secrets management tools are similar to but more robust than encryption key management software, which focuses on the storage, use, and rotation of encryption keys. Similarly, there is an overlap between secrets management and privileged access management (PAM) software. While security-focused PAM solutions offer secrets management, they also offer more robust security functions for enforcing least privilege policies with access controls, monitoring and recording privileged sessions, and alerting suspicious activity. Some secrets management solutions are built into platforms or cloud providers directly. In contrast, other solutions augment that functionality by offering a universal and centralized approach to secrets management, regardless of platform, using integrations.
 
+To qualify for the Secrets Management category, a product must:
+- Centrally manage keys and other secrets
+- Securely store secrets with encryption and tokenization
+- Automate pushing secrets to applications and infrastructure
+- Create audit trail of secrets use and lifecycle
 
-## Top 20 Best Secrets Management Tools
+## Top 20 Best Secrets Management Tools Vendors (By Alphabetical Order)
+### 1 Password
+### Akeyless Vault Platform
+### AWS Secrets Manager
+### BeyondTrust Cloud Vault
