@@ -10,9 +10,11 @@ Secrets are digital authentication credentials such as passwords, SSH keys, API 
 
 ## What Are Secrets Management?
 
+Secrets Management Centrally Manage Secrets to Reduce Secrets Sprawl.
 
 
 ## Secret Management Tools
+Secrets management tools replace fragmented and manual secrets management and provide central visibility, oversight, and management of a company’s credentials, keys, and other secrets across departments. Most commonly, these tools are used by software developers, security professionals, and IT operations teams (DevOps or DevSecOps).
 
 
 ## Top 20 Best Secrets Management Tools
