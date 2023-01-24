@@ -23,7 +23,7 @@ Secrets are environment dependent configurations that need to be kept secret and
 ### How do you store secrets
 Passwords, API keys, secure Tokens, and confidential data fall into the category of secrets. That’s data which shouldn’t lie around. It mustn’t be available in plaintext in easy to guess locations. In fact, it must not be stored in plaintext in any location.
 
-Keeping Secrets Secret:
+#### Keeping Secrets Secret:
 
 The care taken to protect our secrets applies both to how we get and store them, but also to how we use them.
 
