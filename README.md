@@ -10,6 +10,8 @@ An ongoing & curated collection of awesome software best practices and technique
   - [Where do you store secrets?](#)
 - [What Are Secrets Management](#)
   - [Why is Secrets Management is important](#)
+- [Secrets Management Tools](#)
+  - [Top 20 Best Secrets Management Tools](#)
 
 ## What Are Secrets?
 
