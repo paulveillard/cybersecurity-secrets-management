@@ -82,3 +82,14 @@ To qualify for the Secrets Management category, a product must:
 ### Onboardbase
 ### SpectralOps
 
+
+## What Are the Challenges of Secrets Management?
+
+## What Are Some Secrets Management Best Practices?
+- While it is possible to manually perform secrets management, doing so introduces the possibility of human error and can be incredibly inefficient. Generally, a password management tool is a first step. However, you should consider a more holistic approach for a large organization.
+
+> Some secrets management tools go beyond handling standard user accounts and will also support other types of secrets such as the ones listed previously. Having a secure, centralized place to store your secrets is the only way to achieve a truly streamlined experience. 
+
+Other secrets management best practices include:
+
+
