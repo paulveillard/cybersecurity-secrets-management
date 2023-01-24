@@ -8,6 +8,8 @@ An ongoing & curated collection of awesome software best practices and technique
   - [Why store secrets?](#)
   - [How do you store secrets?](#)
   - [Where do you store secrets?](#)
+- [What Are Secrets Management](#)
+  - [Why is Secrets Management is important](#)
 
 ## What Are Secrets?
 
@@ -42,7 +44,7 @@ The care taken to protect our secrets applies both to how we get and store them,
 
 - Secrets Management refers to the way in which we protect configuration settings and other sensitive data which, if made public, would allow unauthorized access to resources. Examples of secrets are usernames, passwords, api keys, SAS tokens etc. Secrets Management centrally Manage Secrets to Reduce Secrets Sprawl.
 
-## Why Is Secrets Management Important?
+### Why Is Secrets Management Important?
 
 - Users need to use authentication methods to access sensitive information or company resources. Whenever these secrets or credentials are transmitted across the company, there is a risk of data leakage or lost passwords. Because of this risk, there is a critical need for organizations to protect secrets. 
 
