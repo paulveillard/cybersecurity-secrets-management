@@ -7,7 +7,7 @@ An ongoing & curated collection of awesome software best practices and technique
 - [What Are Secrets](#)
   - [Why store secrets?](#)
   - [How do you store secrets?](#)
-  - [Where do you store secrets?]
+  - [Where do you store secrets?](#)
 
 ## What Are Secrets?
 
