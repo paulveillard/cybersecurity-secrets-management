@@ -23,9 +23,18 @@ Secrets are environment dependent configurations that need to be kept secret and
 ### How do you store secrets
 Passwords, API keys, secure Tokens, and confidential data fall into the category of secrets. That’s data which shouldn’t lie around. It mustn’t be available in plaintext in easy to guess locations. In fact, it must not be stored in plaintext in any location.
 
+Keeping Secrets Secret:
+
+The care taken to protect our secrets applies both to how we get and store them, but also to how we use them.
+
+    - Don't log secrets
+    - Don't put them in reporting
+    - Don't send them to other applications, as part of URLs, forms, or in any other way other than to make a request to the service that requires that secret
+
+
 ## What Are Secrets Management?
 
-Secrets Management Centrally Manage Secrets to Reduce Secrets Sprawl.
+Secrets Management refers to the way in which we protect configuration settings and other sensitive data which, if made public, would allow unauthorized access to resources. Examples of secrets are usernames, passwords, api keys, SAS tokens etc. Secrets Management centrally Manage Secrets to Reduce Secrets Sprawl.
 
 
 ## Secret Management Tools
