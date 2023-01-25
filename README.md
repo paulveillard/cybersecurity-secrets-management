@@ -94,6 +94,22 @@ DevSecOps and IT are complicated fields. The many types of secrets you have to c
 
 > In many companies, individual departments and teams handle their own secrets separately from others. The result is a decentralized platform for secrets management, which can lead to security gaps and challenges when it comes to auditing.
 
+Working with DevOps
+> DevOps teams rely heavily on secrets for their tasks, which include configuration management, orchestration, and others.
+
+
+Remote access
+> We’ve been seeing a trend of employees working from home and thus requiring authorization via remote access. How can you ensure that secrets remain secure during the transfer?
+
+Bad practices
+> Most new applications and IoT devices come pre-installed with default credentials, which are easy to crack. Even professional DevOps tools sometimes come with pre-made credentials that are risky to the organization if not changed.
+
+
+Cloud-based services
+> Your company likely uses online services like Amazon Web Services and Microsoft Office 365. If so, you probably work with multiple virtual machines too, all of which require their own secrets.
+
+
+
 ## What Are Some Secrets Management Best Practices?
 - While it is possible to manually perform secrets management, doing so introduces the possibility of human error and can be incredibly inefficient. Generally, a password management tool is a first step. However, you should consider a more holistic approach for a large organization.
 
