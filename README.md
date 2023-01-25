@@ -90,6 +90,10 @@ DevSecOps and IT are complicated fields. The many types of secrets you have to c
  
  > With the proliferation of multi-cloud and microservices, organizations have hundreds, or even thousands, of secrets their developers use for accessing machines. These secrets can be shared or left in code or just left unrevoked and leave your organization open to a breach.
 
+#### Fragmented control
+
+> In many companies, individual departments and teams handle their own secrets separately from others. The result is a decentralized platform for secrets management, which can lead to security gaps and challenges when it comes to auditing.
+
 ## What Are Some Secrets Management Best Practices?
 - While it is possible to manually perform secrets management, doing so introduces the possibility of human error and can be incredibly inefficient. Generally, a password management tool is a first step. However, you should consider a more holistic approach for a large organization.
 
