@@ -86,7 +86,7 @@ To qualify for the Secrets Management category, a product must:
 ## What Are the Challenges of Secrets Management?
 DevSecOps and IT are complicated fields. The many types of secrets you have to control makes transmitting and storing them difficult. Keeping up a secure secrets store comes with many challenges.
 
- ##### Secret sprawl
+ #### Secret sprawl
  
  > With the proliferation of multi-cloud and microservices, organizations have hundreds, or even thousands, of secrets their developers use for accessing machines. These secrets can be shared or left in code or just left unrevoked and leave your organization open to a breach.
 
