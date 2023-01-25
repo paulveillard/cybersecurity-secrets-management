@@ -94,7 +94,7 @@ DevSecOps and IT are complicated fields. The many types of secrets you have to c
 
 > In many companies, individual departments and teams handle their own secrets separately from others. The result is a decentralized platform for secrets management, which can lead to security gaps and challenges when it comes to auditing.
 
-Working with DevOps
+#### Working with DevOps
 > DevOps teams rely heavily on secrets for their tasks, which include configuration management, orchestration, and others.
 
 
