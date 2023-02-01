@@ -3,7 +3,7 @@
 An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidelines and important resources about  Secrets Management Process in Cybersecurity.
 > Thanks to all contributors, you're awesome and wouldn't be possible without you! Our goal is to build a categorized community-driven collection of very well-known resources.
 
-## Table of Contents
+# `Table of Contents`
 - [What Are Secrets](#)
   - [Why store secrets?](#)
   - [How do you store secrets?](#)
@@ -13,7 +13,7 @@ An ongoing & curated collection of awesome software best practices and technique
 - [Secrets Management Tools](#)
   - [Top 20 Best Secrets Management Tools](#)
 
-## What Are Secrets?
+## `What Are Secrets?`
 
 Secrets are environment dependent configurations that need to be kept secret and should be read only by subjects with a need-to-know. Secrets are digital authentication credentials such as:
 - Passwords, 
