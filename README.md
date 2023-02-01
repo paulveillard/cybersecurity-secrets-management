@@ -30,7 +30,7 @@ Secrets are environment dependent configurations that need to be kept secret and
 ### `Why Store Secrets?`
 - 
  
-### How do you store Secrets
+### `How do you store Secrets`
 Passwords, API keys, secure Tokens, and confidential data fall into the category of secrets. That’s data which shouldn’t lie around. It mustn’t be available in plaintext in easy to guess locations. In fact, it must not be stored in plaintext in any location.
 
 ### `Where do you store Secrets?`
@@ -46,12 +46,12 @@ The care taken to protect our secrets applies both to how we get and store them,
 
 - Secrets Management refers to the way in which we protect configuration settings and other sensitive data which, if made public, would allow unauthorized access to resources. Examples of secrets are usernames, passwords, api keys, SAS tokens etc. Secrets Management centrally Manage Secrets to Reduce Secrets Sprawl.
 
-### Why Is Secrets Management Important?
+### `Why Is Secrets Management Important?`
 
 - Users need to use authentication methods to access sensitive information or company resources. Whenever these secrets or credentials are transmitted across the company, there is a risk of data leakage or lost passwords. Because of this risk, there is a critical need for organizations to protect secrets. 
 
 
-## Secret Management Tools
+## `Secret Management Tools`
 - Secrets management tools replace fragmented and manual secrets management and provide central visibility, oversight, and management of a company’s credentials, keys, and other secrets across departments. Most commonly, these tools are used by software developers, security professionals, and IT operations teams (DevOps or DevSecOps).
 
 
@@ -63,9 +63,11 @@ To qualify for the Secrets Management category, a product must:
 - Automate pushing secrets to applications and infrastructure
 - Create audit trail of secrets use and lifecycle
 
-## Top 20 Best Secrets Management Tools Vendors (By Alphabetical Order)
+## `Top 20 Best Secrets Management Tools Vendors (By Alphabetical Order)`
 ### 1 Password
+
 ### Akeyless Vault Platform
+
 ### AWS Secrets Manager
 ### Azure Key Vault
 ### BeyondTrust Cloud Vault
@@ -76,7 +78,9 @@ To qualify for the Secrets Management category, a product must:
 ### Delinea DevOps Secrets Vault
 ### EnvKey
 ### Google Cloud Key Management Service (KMS)
-### Hashicorp Vault
+
+### `Hashicorp Vault`
+
 ### Keywhiz
 ### Knox
 ### Onboardbase
