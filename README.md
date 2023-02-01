@@ -110,23 +110,23 @@ DevSecOps and IT are complicated fields. The many types of secrets you have to c
 
 
 
-## What Are Some Secrets Management Best Practices?
+## `What Are Some Secrets Management Best Practices?`
 - While it is possible to manually perform secrets management, doing so introduces the possibility of human error and can be incredibly inefficient. Generally, a password management tool is a first step. However, you should consider a more holistic approach for a large organization.
 
 > Some secrets management tools go beyond handling standard user accounts and will also support other types of secrets such as the ones listed previously. Having a secure, centralized place to store your secrets is the only way to achieve a truly streamlined experience. 
 
 Other secrets management best practices include:
 
-#### General password strategies. 
+#### `General password strategies.` 
 
 > Employee passwords are often a weak point in the security of a business. Encourage passwords with high enough length and complexity. Try to change passwords regularly as well, especially for sensitive accounts. Avoid common and easily guessed passwords.
 
-#### Centralized management. 
+#### `Centralized management.` 
 
 > With so many different types of secrets, having them all in one place for your IT department to manage is the best way to avoid leaks and mitigate risks.
 
 
-#### Privileged session monitoring. 
+#### `Privileged session monitoring.` 
 
 > Software that helps manage a secrets vault can also integrate well with privileged access management (PAM) platforms, adding an extra layer of security and ensuring that access is restricted to only the users who need it. DevOps teams should be able to monitor privileged user activity and terminate sessions if necessary.
 
