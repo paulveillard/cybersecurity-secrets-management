@@ -131,13 +131,13 @@ Other secrets management best practices include:
 > Software that helps manage a secrets vault can also integrate well with privileged access management (PAM) platforms, adding an extra layer of security and ensuring that access is restricted to only the users who need it. DevOps teams should be able to monitor privileged user activity and terminate sessions if necessary.
 
 
-##### Threat analytics. 
+##### `Threat analytics.` 
 
 > An effect of centralized secret management is the ability to analyze your secrets easily. Finding and reporting on risks is faster and more comprehensive this way.
 
 **[`^        back to top        ^`](#)**
 
-## License
+## `License`
 MIT License & [cc](https://creativecommons.org/licenses/by/4.0/) license
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
