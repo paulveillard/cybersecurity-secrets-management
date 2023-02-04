@@ -87,7 +87,7 @@ To qualify for the Secrets Management category, a product must:
 ### SpectralOps
 
 
-## What Are the Challenges of Secrets Management?
+## `What Are the Challenges of Secrets Management?`
 DevSecOps and IT are complicated fields. The many types of secrets you have to control makes transmitting and storing them difficult. Keeping up a secure secrets store comes with many challenges.
 
  #### Secret sprawl
