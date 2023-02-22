@@ -1,0 +1,45 @@
+# Policy that requires keys of secrets with name "state"
+# to be a valid U.S. state code
+# For use with Vault KV v1 and v2 secrets engines
+
+# Function that validates states
+validate_state_codes = func() {
+
+  # Print some information about the request
+  # Note that these messages will only be printed when the policy is violated
+  print("Namespace path:", namespace.path)
+  print("Request path:", request.path)
+  print("Request data:", request.data)
+
+  valid_states = [
+    "AK","AL","AR","AS","AZ","CA","CO","CT","DC","DE","FL","GA","GU","HI","IA","ID","IL","IN",
+    "KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV",
+    "NY","OH","OK","OR","PA","PR","RI","SC","SD","TN","TX","UT","VA","VI","VT","WA","WI","WV",
+    "WY"]
+
+  # Test for "state" key in request.data for kv v1
+  if "state" in keys(request.data) {
+    if request.data.state not in valid_states {
+      print("Invalid state code")
+      return false
+    }
+  }
+
+  # Test for "state" key in request.data.data for kv v2
+  # after first checking for "data" key in request.data
+  if "data" in keys(request.data) and "state" in keys(request.data.data) {
+    if request.data.data.state not in valid_states {
+      print("Invalid state code")
+      return false
+    }
+  }
+
+  return true
+
+}
+
+# Main Rule
+state_key_validated = validate_state_codes()
+main = rule {
+  state_key_validated
+}
