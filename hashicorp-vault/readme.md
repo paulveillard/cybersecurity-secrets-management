@@ -76,3 +76,22 @@ In recent years, several excellent projects have emerged to combat the increasin
 
 Essentially, Vault plays the role of hardcoded secrets, config files, or whatever other secret management strategy a team relies on. Vault, however, represents a solution which can scale to virtually any sized need, and which provides benefits far beyond simply storing sensitive material:
 ![vault secrets management](https://github.com/paulveillard/cybersecurity-secrets-management/blob/main/hashicorp-vault/Img/Vault-2.png)
+
+
+
+## 3 - Vault Component Architecture
+ <...TBA...>
+ 
+ 
+## 4 - Vault Reference Architecture
+<...TBA...>
+
+
+## 5 - <Organization> Platform and Architecture
+<...TBA...>
+  
+  
+  
+## 6 - <Organization> Platform and Vault Integration Considerations
+<...TBA...>
+
