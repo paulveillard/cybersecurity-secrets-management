@@ -113,6 +113,8 @@ The core Vault workflow consists of four stages:
 
 - Access: Vault grants access to secrets, keys, and encryption capabilities by issuing a token based on policies associated with the client’s identity. The client can then use their Vault token for future operations.
 
+![image4](https://github.com/paulveillard/cybersecurity-secrets-management/blob/main/hashicorp-vault/Img/Access.png)
+
 
 ## 3 - Vault Component Architecture
  <...TBA...>
