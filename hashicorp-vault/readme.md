@@ -27,3 +27,15 @@ Some of the most common types of secrets include:
 - API keys
 
 - Encryption keys
+
+1.2 The Challenge
+
+A non-human user with access to a secret automatically gains real-time access and permissions to any resources belonging to the owner of the secret. Cyber attackers understand this and target secrets to gain unauthorized access to additional secrets and hosts to complete their mission. A cyber attack targeting secrets can often spread far beyond the scope of the initial breach.
+
+Secrets are widespread. They include embedded hard-coded credentials in containerized applications (e.g., Red Hat OpenShift, Kubernetes or Pivotal); automation processes (e.g., Ansible Playbooks, Puppet or Chef); business-critical applications, including both internally developed and commercial off-the-shelf solutions (COTS); security software, such as vulnerability scanners; application servers and IT management software, Robotic Process Automation (RPA) platforms and the Continuous Integration/Continuous Deployment (CI/CD) tool chain.
+
+- Hard-Coded Secrets – Teams store sensitive data in source code.‍
+
+- Configuration Files – Teams consolidate sensitive data in configuration files. Generally, these files contain only material required by a single application or service, however, teams occasionally maintain “master config” files. These files possess secrets for multiple services and allow teams to maintain only a single manifest.‍
+
+- Encrypted Secrets – Teams frequently check-in source code or configuration files which contain encrypted secrets. These secrets must be “unpacked” by either an encryption service or with a decryption key provided to the application.
