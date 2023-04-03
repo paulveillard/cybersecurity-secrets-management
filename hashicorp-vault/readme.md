@@ -8,6 +8,13 @@
   - [The Challenge](#)
   - [The Solution](#)
   - [The Secret Management Tool "Vault"](#)
+- [How Does Vault Work and Its Principles of Design](#)
+- [Vault Component Architecture](#)
+- [Vault Reference Architecture](#)
+- [Organization Platform and Architecture](#)
+- [Organization Platform and Vault Architecture Considerations](#)
+  
+
 
 
 ## `1 - Introduction to Secrets Management`
