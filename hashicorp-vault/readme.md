@@ -66,7 +66,7 @@ To qualify for the Secrets Management category, a product must:
 In recent years, several excellent projects have emerged to combat the increasing complex problem. They are dedicated secret management services and vendors like Keywhiz, Azure Key Vault, Hashicorp Vault, for [more vendors](https://www.g2.com/categories/secrets-management-tools). While these solutions are excellent, we will only discuss Vault for the sake of simplicity.
 
 ### 1.4 The Secrets Management Tool “Vault”
-Vault states its purpose on its website: Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
+[Vault](https://www.vaultproject.io/) states its purpose on its website: Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
 
 Essentially, Vault plays the role of hardcoded secrets, config files, or whatever other secret management strategy a team relies on. Vault, however, represents a solution which can scale to virtually any sized need, and which provides benefits far beyond simply storing sensitive material:
 ![vault secrets management](https://github.com/paulveillard/cybersecurity-secrets-management/blob/main/hashicorp-vault/Img/Vault-2.png)
