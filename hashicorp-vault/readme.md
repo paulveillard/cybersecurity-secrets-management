@@ -103,6 +103,8 @@ The core Vault workflow consists of four stages:
 
 - Validation: Vault validates the client against third-party trusted sources, such as Github, LDAP, AppRole, and more.
 
+![image2])https://github.com/paulveillard/cybersecurity-secrets-management/blob/main/hashicorp-vault/Img/Validate.png)
+
 
 - Authorize: A client is matched against the Vault security policy. This policy is a set of rules defining which API endpoints a client has access to with its Vault token. Policies provide a declarative way to grant or forbid access to certain paths and operations in Vault.
 
