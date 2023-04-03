@@ -98,6 +98,8 @@ Vault works primarily with tokens and a token is associated to the client's poli
 The core Vault workflow consists of four stages:
 - Authenticate: Authentication in Vault is the process by which a client supplies information that Vault uses to determine if they are who they say they are. Once the client is authenticated against an auth method, a token is generated and associated to a policy.
 
+![image1](https://github.com/paulveillard/cybersecurity-secrets-management/blob/main/hashicorp-vault/Img/Authenticate.png)
+
 
 - Validation: Vault validates the client against third-party trusted sources, such as Github, LDAP, AppRole, and more.
 
