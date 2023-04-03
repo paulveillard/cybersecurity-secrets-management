@@ -14,7 +14,7 @@ Secrets management is the process of managing secrets in a secure and centralize
 
 With increasing complexity and modernization, DevOps or Security Engineers need a standard method for managing and maintaining secrets within modern environments. Frequently, engineering teams produce proof-of-concept level applications by hard-coding secrets into source code, or enterprises will create complex secret management ecosystems. The most common strategies are listed below:
 
-### 1.1 The Secret
+### `1.1 The Secret`
 
 These non-human privileged credentials are often called “secrets” and refer to a private piece of information that acts as a key to unlock protected resources or sensitive information in tools, applications, containers, DevOps and cloud-native environments.
 
@@ -32,7 +32,7 @@ Some of the most common types of secrets include:
 
 - Encryption keys
 
-### 1.2 The Challenge
+### `1.2 The Challenge`
 
 A non-human user with access to a secret automatically gains real-time access and permissions to any resources belonging to the owner of the secret. Cyber attackers understand this and target secrets to gain unauthorized access to additional secrets and hosts to complete their mission. A cyber attack targeting secrets can often spread far beyond the scope of the initial breach.
 
@@ -45,7 +45,7 @@ A non-human user with access to a secret automatically gains real-time access an
 - Encrypted Secrets – Teams frequently check-in source code or configuration files which contain encrypted secrets. These secrets must be “unpacked” by either an encryption service or with a decryption key provided to the application.
 
 
-### 1.3 The Solution
+### `1.3 The Solution`
 
 Secrets management tools help companies securely store, transmit, and manage sensitive digital authentication credentials such as passwords, SSH keys, API keys, database passwords, certificates like TLS/SSL certificates or private certificates, tokens, encryption keys, privileged credentials, and other secrets.
 
@@ -65,7 +65,7 @@ To qualify for the Secrets Management category, a product must:
 
 In recent years, several excellent projects have emerged to combat the increasing complex problem. They are dedicated secret management services and vendors like Keywhiz, Azure Key Vault, Hashicorp Vault, for [more vendors](https://www.g2.com/categories/secrets-management-tools). While these solutions are excellent, we will only discuss Vault for the sake of simplicity.
 
-### 1.4 The Secrets Management Tool “Vault”
+### `1.4 The Secrets Management Tool “Vault”`
 [Vault](https://www.vaultproject.io/) states its purpose on its website: Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
 
 Essentially, Vault plays the role of hardcoded secrets, config files, or whatever other secret management strategy a team relies on. Vault, however, represents a solution which can scale to virtually any sized need, and which provides benefits far beyond simply storing sensitive material:
