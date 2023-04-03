@@ -90,6 +90,23 @@ Vault secures, stores, and tightly controls access to tokens, passwords, certifi
 
 ![vault3](https://github.com/paulveillard/cybersecurity-secrets-management/blob/main/hashicorp-vault/Img/Vault-3.png)
 
+Vault validates and authorizes clients (users, machines, apps) before providing them access to secrets or stored sensitive data.
+
+### 2.1 - Vault Core Workflow:
+Vault works primarily with tokens and a token is associated to the client's policy. Each policy is path-based and policy rules constrains the actions and accessibility to the paths for each client.
+
+The core Vault workflow consists of four stages:
+- Authenticate: Authentication in Vault is the process by which a client supplies information that Vault uses to determine if they are who they say they are. Once the client is authenticated against an auth method, a token is generated and associated to a policy.
+
+
+- Validation: Vault validates the client against third-party trusted sources, such as Github, LDAP, AppRole, and more.
+
+
+- Authorize: A client is matched against the Vault security policy. This policy is a set of rules defining which API endpoints a client has access to with its Vault token. Policies provide a declarative way to grant or forbid access to certain paths and operations in Vault.
+
+
+- Access: Vault grants access to secrets, keys, and encryption capabilities by issuing a token based on policies associated with the client’s identity. The client can then use their Vault token for future operations.
+
 
 ## 3 - Vault Component Architecture
  <...TBA...>
