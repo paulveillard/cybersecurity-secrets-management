@@ -108,6 +108,8 @@ The core Vault workflow consists of four stages:
 
 - Authorize: A client is matched against the Vault security policy. This policy is a set of rules defining which API endpoints a client has access to with its Vault token. Policies provide a declarative way to grant or forbid access to certain paths and operations in Vault.
 
+![image3](https://github.com/paulveillard/cybersecurity-secrets-management/blob/main/hashicorp-vault/Img/Authorize.png)
+
 
 - Access: Vault grants access to secrets, keys, and encryption capabilities by issuing a token based on policies associated with the client’s identity. The client can then use their Vault token for future operations.
 
