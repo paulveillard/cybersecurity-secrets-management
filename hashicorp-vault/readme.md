@@ -132,3 +132,14 @@ The core Vault workflow consists of four stages:
 ## 6 - <Organization> Platform and Vault Integration Considerations
 <...TBA...>
 
+
+## 7 - Useful Links and Additional References
+
+### Internal Resources
+
+### External Resources
+
+Hashicorp Developer Website:
+
+
+Github:
