@@ -4,7 +4,7 @@
 
 # Table of Contents
 
-## 1 - Introduction to Secrets Management
+## `1 - Introduction to Secrets Management`
 
 Secrets management is the process of managing secrets in a secure and centralized manner, throughout the secrets lifecycle or is the use of tools and methods to securely store, access and centrally manage the lifecycle of digital authentication credentials.
 
