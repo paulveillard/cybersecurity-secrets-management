@@ -42,3 +42,24 @@ A non-human user with access to a secret automatically gains real-time access an
 - Configuration Files – Teams consolidate sensitive data in configuration files. Generally, these files contain only material required by a single application or service, however, teams occasionally maintain “master config” files. These files possess secrets for multiple services and allow teams to maintain only a single manifest.‍
 
 - Encrypted Secrets – Teams frequently check-in source code or configuration files which contain encrypted secrets. These secrets must be “unpacked” by either an encryption service or with a decryption key provided to the application.
+
+
+1.3 The Solution
+
+Secrets management tools help companies securely store, transmit, and manage sensitive digital authentication credentials such as passwords, SSH keys, API keys, database passwords, certificates like TLS/SSL certificates or private certificates, tokens, encryption keys, privileged credentials, and other secrets.
+
+Companies use these tools to manage their secrets across their IT ecosystem centrally. These tools reduce the risks associated with poor and manual secrets management, such as hardcoding secrets into scripts, using default passwords, sharing passwords, and not rotating credentials. Secrets management tools replace fragmented and manual secrets management and provide central visibility, oversight, and management of a company’s credentials, keys, and other secrets across departments. Most commonly, these tools are used by software developers, security professionals, and IT operations teams (DevOps or DevSecOps).
+
+Secrets management tools are similar to but more robust than encryption key management software, which focuses on the storage, use, and rotation of encryption keys. Similarly, there is an overlap between secrets management and privileged access management (PAM) software. While security-focused PAM solutions offer secrets management, they also offer more robust security functions for enforcing least privilege policies with access controls, monitoring and recording privileged sessions, and alerting suspicious activity. Some secrets management solutions are built into platforms or cloud providers directly. In contrast, other solutions augment that functionality by offering a universal and centralized approach to secrets management, regardless of platform, using integrations.
+
+To qualify for the Secrets Management category, a product must:
+
+Centrally manage keys and other secrets
+
+Securely store secrets with encryption and tokenization
+
+Automate pushing secrets to applications and infrastructure
+
+Create audit trail of secrets use and lifecycle
+
+In recent years, several excellent projects have emerged to combat the increasing complex problem. They are dedicated secret management services and vendors like Keywhiz, Azure Key Vault, Hashicorp Vault, for more vendors. While these solutions are excellent, we will only discuss Vault for the sake of simplicity.
