@@ -88,6 +88,8 @@ Essentially, Vault plays the role of hardcoded secrets, config files, or whateve
 
 Vault secures, stores, and tightly controls access to tokens, passwords, certificates, encryption keys by authenticating against trusted sources of identity such as Active Directory, LDAP, Kubernetes, and cloud platforms. Vault enables fine grained authorization of which users and applications are allowed access to secrets and keys. Vault validates and authorizes clients (users, machines, apps) before providing them access to secrets or stored sensitive data.
 
+![vault3](https://github.com/paulveillard/cybersecurity-secrets-management/blob/main/hashicorp-vault/Img/Vault-3.png)
+
 
 ## 3 - Vault Component Architecture
  <...TBA...>
