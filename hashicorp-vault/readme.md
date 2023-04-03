@@ -32,7 +32,7 @@ Some of the most common types of secrets include:
 
 A non-human user with access to a secret automatically gains real-time access and permissions to any resources belonging to the owner of the secret. Cyber attackers understand this and target secrets to gain unauthorized access to additional secrets and hosts to complete their mission. A cyber attack targeting secrets can often spread far beyond the scope of the initial breach.
 
-Secrets are widespread. They include embedded hard-coded credentials in containerized applications (e.g., Red Hat OpenShift, Kubernetes or Pivotal); automation processes (e.g., Ansible Playbooks, Puppet or Chef); business-critical applications, including both internally developed and commercial off-the-shelf solutions (COTS); security software, such as vulnerability scanners; application servers and IT management software, Robotic Process Automation (RPA) platforms and the Continuous Integration/Continuous Deployment (CI/CD) tool chain.
+[Secrets are widespread](https://www.hashicorp.com/resources/what-is-secret-sprawl-why-is-it-harmful). They include embedded hard-coded credentials in containerized applications (e.g., Red Hat OpenShift, Kubernetes or Pivotal); automation processes (e.g., Ansible Playbooks, Puppet or Chef); business-critical applications, including both internally developed and commercial off-the-shelf solutions (COTS); security software, such as vulnerability scanners; application servers and IT management software, Robotic Process Automation (RPA) platforms and the Continuous Integration/Continuous Deployment (CI/CD) tool chain.
 
 - Hard-Coded Secrets – Teams store sensitive data in source code.‍
 
