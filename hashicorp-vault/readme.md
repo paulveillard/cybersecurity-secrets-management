@@ -3,6 +3,12 @@
 > Note: A large portion of text in this design document is borrowed from other sources (mainly from Hashicorp's product documentation). Furthermore, a lot of of images have been borrowed and reused as necessary within the scope of this document.
 
 # Table of Contents
+- [Introduction to Secrets Management](#)
+  - [The Secret](#)
+  - [The Challenge](#)
+  - [The Solution](#)
+  - [The Secret Management Tool "Vault"](#)
+
 
 ## `1 - Introduction to Secrets Management`
 
